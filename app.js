@@ -3,7 +3,7 @@
  */
 var leaderboard = require('./lib/leaderboard');
 
-var js_daily = leaderboard.request({language:'javascript',since:'monthly'},function(err,results){
+var js_daily = leaderboard.request({language:'javascript',since:'daily'},function(err,results){
     if(!err){
         console.log(results);
     }
